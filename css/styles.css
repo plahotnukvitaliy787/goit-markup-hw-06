@@ -263,6 +263,11 @@ img {
     overflow: hidden;
     display: block;
 }
+.portfolio-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 .hidden-paragraf {
     position: absolute;
     top: 0;
