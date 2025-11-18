@@ -283,6 +283,7 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list-object {
+    cursor: pointer;
     width: calc((100% - 48px) / 3); 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -310,6 +311,9 @@ img {
     display: flex;
     align-items: baseline;
 }
+.container-logo {
+    margin-right: 120px;
+}
 .footer-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -334,6 +338,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 16px;
 }
 .social-list-footer {
     display: flex;
@@ -354,11 +359,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-footer:hover,
 .social-link-footer:focus {
     background-color: #31d0aa;
-}
-.social-item-footer {
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
