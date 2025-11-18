@@ -241,6 +241,9 @@ img {
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.icon-team-agent {
+    fill: #f4f4fd;
+}
 .link-social-media:hover,
 .link-social-media:focus {
     background-color: #404bbf;
@@ -258,6 +261,7 @@ img {
 .portfolio-img-container {
     position: relative;
     overflow: hidden;
+    display: block;
 }
 .hidden-paragraf {
     position: absolute;
