@@ -369,3 +369,48 @@ img {
 .social-link-footer:focus {
     background-color: #31d0aa;
 }
+.name-form-footer {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 16px;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+}
+.form-footer {
+    display: flex;
+    gap: 24px;
+}
+.entry-footer {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.entry-footer::placeholder {
+    color: #FFFFFF;
+}
+.button-entry-footer {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+}
