@@ -487,7 +487,6 @@ img {
 }
 .modal-container {
     position: relative;
-    margin-bottom: 16px;
 }
 .icon-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -514,4 +513,24 @@ img {
 }
 .modal-input:focus + .modal-icon {
     fill: #4d5ae5;
+}
+.container-comment {
+     margin-bottom: 16px;
+}
+.textarea-comment {
+    width: 100%;
+    height: 120px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.04);
+    border: 1px solid rgba(46, 47, 66, 0.04);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea-comment:focus {
+    border-color: #4d5ae5;
 }
